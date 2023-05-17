@@ -67,3 +67,32 @@ footer{
     margin: 50px;
     text-align: end;
 }
+
+@media(max-width:450px){
+    .image_container, img{
+        width: 190px;
+        height: 160px;
+        
+        
+
+        
+    }
+    .top_section h1{
+        font-size: 20px;
+        position: relative;
+        right: 30px;
+    }
+    .top_section h4{
+        font-size: 15px;
+        position: relative;
+        right: 30px;
+    }
+    .about_section h2{
+        font-size: 25px;
+        padding: 20px;
+    }
+    .about_section p{
+        font-size: 25px;
+        padding: 20px;
+    }
+}
